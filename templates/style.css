@@ -34,3 +34,25 @@ li,a {
     text-align: center;
     font-family: "Work Sans";
 }
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width:auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+
+.pivo {
+    border-radius: 20px;
+    background-color: black;
+    height: 300px;
+    width: auto;
+}
+
+.pivo:hover {
+    color: rgb(81, 255, 0);
+    box-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
