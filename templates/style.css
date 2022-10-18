@@ -24,6 +24,10 @@ li,a {
     color: white;
 }
 
+li,a:hover{
+    text-shadow: 2px 2px rgb(143, 115, 226);
+}
+
 .nav_links li {
     display: inline-block;
     padding: 0 20px;
@@ -40,7 +44,7 @@ li,a {
     justify-content: center;
     height: 300px;
     width:auto;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 40px;
     border-radius: 20px;
 }
@@ -53,6 +57,14 @@ li,a {
 }
 
 .pivo:hover {
-    color: rgb(81, 255, 0);
     box-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.forms {
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    font-family: "Work Sans";
+    font-weight: 1000;
+    border-radius: 20px;
 }
